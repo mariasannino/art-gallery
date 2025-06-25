@@ -67,6 +67,102 @@ export const fetchArtists = () => {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Portrait_of_Henri_Matisse_1933_May_20.jpg/330px-Portrait_of_Henri_Matisse_1933_May_20.jpg",
           bio: "Matisse was a French artist known for his use of color and fluid draftsmanship.",
         },
+        {
+          id: 9,
+          name: "Leonardo da Vinci",
+          style: "Renaissance",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/500px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+          bio: "Leonardo da Vinci was an Italian polymath of the Renaissance, known for masterpieces like the Mona Lisa and The Last Supper.",
+        },
+        {
+          id: 10,
+          name: "Rembrandt",
+          style: "Baroque",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/330px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+          bio: "Rembrandt was a Dutch painter and etcher, widely considered one of the greatest visual artists in history.",
+        },
+        {
+          id: 11,
+          name: "Andy Warhol",
+          style: "Pop Art",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Andy_Warhol_at_the_Jewish_Museum_%28by_Bernard_Gotfryd%29_%E2%80%93_LOC.jpg/330px-Andy_Warhol_at_the_Jewish_Museum_%28by_Bernard_Gotfryd%29_%E2%80%93_LOC.jpg",
+          bio: "Warhol was an American artist and leading figure in the visual art movement known as Pop Art.",
+        },
+        {
+          id: 12,
+          name: "Jackson Pollock",
+          style: "Abstract Expressionism",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Jackson_Pollock%27s_passport_%28cropped_2%29.jpg/330px-Jackson_Pollock%27s_passport_%28cropped_2%29.jpg",
+          bio: "Pollock was an American painter known for his unique style of drip painting.",
+        },
+        {
+          id: 13,
+          name: "Edvard Munch",
+          style: "Expressionism",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Edvard_Munch_1921.jpg/330px-Edvard_Munch_1921.jpg",
+          bio: "Munch was a Norwegian painter best known for his iconic work 'The Scream'.",
+        },
+        {
+          id: 14,
+          name: "Joan Miró",
+          style: "Surrealism",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/7/7e/Joan_Miro_%28cropped%29.jpg",
+          bio: "Miró was a Spanish painter, sculptor, and ceramicist known for his abstract and surrealist works.",
+        },
+        {
+          id: 15,
+          name: "Keith Haring",
+          style: "Street Art",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Keith_Haring_%281986%29.jpg/500px-Keith_Haring_%281986%29.jpg",
+          bio: "Haring was an American artist and social activist known for his graffiti-inspired artwork.",
+        },
+        {
+          id: 16,
+          name: "Jean-Michel Basquiat",
+          style: "Neo-Expressionism",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jean-Michel_Basquiat_passport_%28cropped%29.jpg",
+          bio: "Basquiat was an American artist known for his raw, expressive style and commentary on race and identity.",
+        },
+        {
+          id: 17,
+          name: "Mary Cassatt",
+          style: "Impressionism",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mary_Cassatt_photograph_1913.jpg/500px-Mary_Cassatt_photograph_1913.jpg",
+          bio: "Cassatt was an American painter and printmaker, known for her depictions of women and children.",
+        },
+        {
+          id: 18,
+          name: "Wassily Kandinsky",
+          style: "Abstract Art",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Vassily_Kandinsky_by_Adolf_Elnain_2.png/500px-Vassily_Kandinsky_by_Adolf_Elnain_2.png",
+          bio: "Kandinsky was a Russian painter and art theorist credited with painting one of the first purely abstract works.",
+        },
+        {
+          id: 19,
+          name: "Tamara de Lempicka",
+          style: "Art Deco",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/L2890841_rze%C5%BAbiarz_S%C5%82awomir_Micek_popiersie_malarka_Tamara_%C5%81empicka.jpg/330px-L2890841_rze%C5%BAbiarz_S%C5%82awomir_Micek_popiersie_malarka_Tamara_%C5%81empicka.jpg",
+          bio: "Tamara de Lempicka was a Polish painter known for her bold, stylized portraits and nudes that epitomized the Art Deco movement.",
+        },
+        {
+          id: 20,
+          name: "Kara Walker",
+          style: "Contemporary Art",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kara_Walker_Interview_Camden_Arts_Centre_01.47_%28cropped%29.jpg/330px-Kara_Walker_Interview_Camden_Arts_Centre_01.47_%28cropped%29.jpg",
+          bio: "Kara Walker is an American contemporary artist known for her candid exploration of race, gender, and identity through silhouetted figures and large-scale installations.",
+        },
       ]);
     }, 1000);
   });

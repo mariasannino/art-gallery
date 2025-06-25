@@ -1,7 +1,9 @@
 import { useArtists } from "../context/ArtistContext";
 
 const ArtistList = () => {
-  const { artists, setSelectedArtist } = useArtists();
+  const { artists, setSelectedArtist, loading } = useArtists();
+
+  if (loading) return <p>Loading artists...</p>;
 
   return (
     <div className="artist-list">
