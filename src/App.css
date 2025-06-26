@@ -195,3 +195,17 @@ h1 {
 .dark-mode .header {
   background: #555;
 }
+
+.close-button {
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.close-button:hover {
+  color: var(--coral);
+}
