@@ -1,4 +1,3 @@
-// src/services/artistService.js
 export const fetchArtists = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
